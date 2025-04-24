@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(157, 30, 30);
+}
+header{
+    background: black;
+    display: row;
+}
+.top ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.top ul li {
+    display: inline-block;
+    padding:5px;
+    margin-right: 5%;
+    background: black;
+    color: white;
+}
+.top ul .logo {
+    text-indent: -999999999px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -14px;
+    background-image: url("images/transparent-logo.png");
+    background-size: 100%;
+}
+.top ul .space-english {
+    margin-right: 863px;
+}
+.top ul .lName {
+    margin-right: 0;
+    position: absolute;
+    right: 9%;
+}
+
+.top ul .flag {
+    text-indent: -999999999px;
+    background: red;
+    width: 33px;
+    height: 20px;
+    background-image: url("images/italian-flag.png");
+    background-size: 100%;
+    position: absolute;
+    right: 5%;
+    margin:21px 0;
+}
+.top ul .flag-american {
+    text-indent: -999999999px;
+    background: red;
+    width: 33px;
+    background-image: url("images/english-flag.png");
+    background-size: 100%;
+    position: absolute;
+    right: 5%;
+    margin:21px 0;
+}
+
+.main {
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    background: red;
+    background-image: url("images/top-backround.png");
+    background-size: 100%;
+    text-align: center;
+}
+.main .big-name {
+    position: relative;
+    top: 43px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+.shop div{
+    background: white;
+    color:rgb(103, 103, 103);
+    margin: 0 70px;
+    padding:50px 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.shop .title .word{
+    font-size: 120px;
+}
+
+.shop .title .icon{
+    margin:10px 50px 0 0;
+    text-indent: -999999999px;
+    width: 130px;
+    height: 130px;
+    background: black;
+    background-image: url("images/phone-icon.png");
+    background-size: 100%;
+}
+.shop .line {
+    text-align: center;
+}
+section .testo {
+    padding: 0px 200px;
+}
+section .icone{
+    padding:0 500px;
+}
+section .icone img {
+    width: 100px;
+    height: 100px;
+}
+.white-space{
+    color:white;
+}
+
+footer {
+    background: black;
+    color: gray;
+    height: 30px;
+}

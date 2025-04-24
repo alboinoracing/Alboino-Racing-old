@@ -1,0 +1,202 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background: black;
+    display: row;
+}
+.top ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.top ul li {
+    display: inline-block;
+    padding:5px;
+    margin-right: 5%;
+    background: black;
+    color: white;
+}
+.top ul .logo {
+    text-indent: -999999999px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -14px;
+    background-image: url("images/transparent-logo.png");
+    background-size: 100%;
+}
+.top ul .space-english {
+    margin-right: 863px;
+}
+.top ul .lName {
+    margin-right: 0;
+    position: absolute;
+    right: 9%;
+}
+
+.top ul .flag {
+    text-indent: -999999999px;
+    background: red;
+    width: 33px;
+    height: 20px;
+    background-image: url("images/italian-flag.png");
+    background-size: 100%;
+    position: absolute;
+    right: 5%;
+    margin:21px 0;
+}
+.top ul .flag-american {
+    text-indent: -999999999px;
+    background: red;
+    width: 33px;
+    background-image: url("images/english-flag.png");
+    background-size: 100%;
+    position: absolute;
+    right: 5%;
+    margin:21px 0;
+}
+@media screen and (max-width:600px) {
+    .main {
+        height: 600px;
+        margin: 0;
+        padding: 0;
+        background: red;
+        background-image: url("images/top-backround.png");
+        background-size: 100%;
+        text-align: center;
+    }
+}
+@media screen and (min-width:599px) {
+    .main {
+        height: 20%;
+        margin: 0;
+        padding: 0;
+        background: red;
+        background-image: url("images/top-backround.png");
+        background-size: 100%;
+        text-align: center;
+    }
+}
+.main-text {
+    text-align: center;
+    margin: -16px;
+}
+
+@media screen and (max-width:600px) {
+    .main .big-logo img{
+        display: inline-block;
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media screen and (min-width:599px) {
+    .main .big-logo img{
+        display: inline-block;
+        width: 25%;
+        height: 25%;
+    }
+}
+
+.main .big-name {
+    position: relative;
+    top: -90px;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+.shop {
+    padding: 5%;
+}
+.shop figure img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.shop figure li{
+    padding: 0 35px;
+    display: inline-block;
+    display: row-reverse;
+    background: red;
+    border-radius: 100px;
+    position: relative;
+    top: -145px;
+    margin: 0 70px;
+}
+.shop figure li::after, .shop figure li::before{
+    content:'';
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(rgb(255, 104, 104),rgb(161, 255, 98),rgb(111, 255, 255),rgb(132, 115, 255),rgb(255, 111, 245),rgb(255, 104, 104));
+    top:50%;
+    left:50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 1000px;
+}
+.shop figure li::before{
+    filter: blur(1.5rem);
+} 
+
+.contacts {
+    position: absolute;
+    right: 50px;
+}
+.contacts figure img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    top: -250px;
+}
+.contacts figure li{
+    padding: 0 35px;
+    display: inline-block;
+    display: row-reverse;
+    background: red;
+    border-radius: 100px;
+    position: relative;
+    top: -395px;
+    margin: 0 70px;
+}
+.contacts figure li::after, .contacts figure li::before{
+    content:'';
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from 120deg,rgb(255, 104, 104),rgb(161, 255, 98),rgb(111, 255, 255),rgb(132, 115, 255),rgb(255, 111, 245),rgb(255, 104, 104));
+    top:50%;
+    left:50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 1000px;
+}
+.contacts figure li::before{
+    filter: blur(1.5rem);
+} 
+
+.white {
+    color:white;
+    text-indent: -999999999px;
+    height: 200px;
+}
+.sponsor {
+    font-size: 30px;
+    padding:30px 50px;
+    background: rgb(216, 215, 203);
+}
+.sponsor img {
+    height: 300px;
+}
+
+footer {
+    background: black;
+    color: gray;
+    height: 30px;
+}
